@@ -1,0 +1,57 @@
+[0/1] Planning build
+Building for debugging...
+[0/4] Write sources
+[1/4] Write swift-version--1BA0962812E73E12.txt
+[3/7] Compiling FullIslandCoreTests FullIslandCoreTests.swift
+[4/7] Emitting module FullIslandCoreTests
+[5/8] /mnt/data/FullIslandCore-Prototype-v0.2/.build/x86_64-unknown-linux-gnu/debug/FullIslandCorePackageDiscoveredTests.derived/all-discovered-tests.swift
+[6/9] Write sources
+[8/12] Compiling FullIslandCorePackageDiscoveredTests FullIslandCoreTests.swift
+[9/12] Emitting module FullIslandCorePackageDiscoveredTests
+[10/12] Compiling FullIslandCorePackageDiscoveredTests all-discovered-tests.swift
+[11/13] Wrapping AST for FullIslandCorePackageDiscoveredTests for debugging
+[12/17] /mnt/data/FullIslandCore-Prototype-v0.2/.build/x86_64-unknown-linux-gnu/debug/FullIslandCorePackageTests.derived/runner.swift
+[13/18] Write sources
+[14/18] Wrapping AST for FullIslandCoreTests for debugging
+[16/20] Emitting module FullIslandCorePackageTests
+[17/20] Compiling FullIslandCorePackageTests runner.swift
+[18/20] Write Objects.LinkFileList
+[19/20] Linking FullIslandCorePackageTests.xctest
+Build complete! (2.61s)
+Test Suite 'All tests' started at 2026-11-19 11:11:42.639
+Test Suite 'debug.xctest' started at 2026-11-19 11:11:42.641
+Test Suite 'FullIslandCoreTests' started at 2026-11-19 11:11:42.641
+Test Case 'FullIslandCoreTests.testBridgeRollsBackBothSidesWhenStatusBarPublishFails' started at 2026-11-19 11:11:42.641
+Test Case 'FullIslandCoreTests.testBridgeRollsBackBothSidesWhenStatusBarPublishFails' passed (0.001 seconds)
+Test Case 'FullIslandCoreTests.testCompactLayoutKeepsNativeTopSafeAreaWhenAlreadyLargeEnough' started at 2026-11-19 11:11:42.642
+Test Case 'FullIslandCoreTests.testCompactLayoutKeepsNativeTopSafeAreaWhenAlreadyLargeEnough' passed (0.0 seconds)
+Test Case 'FullIslandCoreTests.testConfigurationStoreIsNamespacedAndRoundTrips' started at 2026-11-19 11:11:42.642
+Test Case 'FullIslandCoreTests.testConfigurationStoreIsNamespacedAndRoundTrips' passed (0.004 seconds)
+Test Case 'FullIslandCoreTests.testExpandedLayoutUsesSharedProgressAndAddsContentInset' started at 2026-11-19 11:11:42.647
+Test Case 'FullIslandCoreTests.testExpandedLayoutUsesSharedProgressAndAddsContentInset' passed (0.0 seconds)
+Test Case 'FullIslandCoreTests.testGeometryIsSnappedToDisplayPixels' started at 2026-11-19 11:11:42.647
+Test Case 'FullIslandCoreTests.testGeometryIsSnappedToDisplayPixels' passed (0.0 seconds)
+Test Case 'FullIslandCoreTests.testHugeCapsuleProfileIsClampedInsideScreenBounds' started at 2026-11-19 11:11:42.647
+Test Case 'FullIslandCoreTests.testHugeCapsuleProfileIsClampedInsideScreenBounds' passed (0.001 seconds)
+Test Case 'FullIslandCoreTests.testIntermediateProgressIsConsumedWithoutSecondEasingCurve' started at 2026-11-19 11:11:42.648
+Test Case 'FullIslandCoreTests.testIntermediateProgressIsConsumedWithoutSecondEasingCurve' passed (0.0 seconds)
+Test Case 'FullIslandCoreTests.testNonFiniteProgressUsesCompactGeometry' started at 2026-11-19 11:11:42.648
+Test Case 'FullIslandCoreTests.testNonFiniteProgressUsesCompactGeometry' passed (0.0 seconds)
+Test Case 'FullIslandCoreTests.testOriginalModeReturnsUnmodifiedSafeAreaAndNoCapsule' started at 2026-11-19 11:11:42.648
+Test Case 'FullIslandCoreTests.testOriginalModeReturnsUnmodifiedSafeAreaAndNoCapsule' passed (0.0 seconds)
+Test Case 'FullIslandCoreTests.testResearchCatalogKeepsPrivateSymbolsMarkedAsUnverifiedABI' started at 2026-11-19 11:11:42.648
+Test Case 'FullIslandCoreTests.testResearchCatalogKeepsPrivateSymbolsMarkedAsUnverifiedABI' passed (0.0 seconds)
+Test Case 'FullIslandCoreTests.testTransitionCompletesAtSharedEndpoint' started at 2026-11-19 11:11:42.649
+Test Case 'FullIslandCoreTests.testTransitionCompletesAtSharedEndpoint' passed (0.0 seconds)
+Test Case 'FullIslandCoreTests.testTransitionCoordinatorIgnoresSupersededAnimationTicket' started at 2026-11-19 11:11:42.649
+Test Case 'FullIslandCoreTests.testTransitionCoordinatorIgnoresSupersededAnimationTicket' passed (0.0 seconds)
+Test Suite 'FullIslandCoreTests' passed at 2026-11-19 11:11:42.649
+	 Executed 12 tests, with 0 failures (0 unexpected) in 0.008 (0.008) seconds
+Test Suite 'debug.xctest' passed at 2026-11-19 11:11:42.649
+	 Executed 12 tests, with 0 failures (0 unexpected) in 0.008 (0.008) seconds
+Test Suite 'All tests' passed at 2026-11-19 11:11:42.649
+	 Executed 12 tests, with 0 failures (0 unexpected) in 0.008 (0.008) seconds
+◇ Test run started.
+↳ Testing Library Version: 6.2.1 (c9d57c83568b06d)
+↳ Target Platform: x86_64-unknown-linux-gnu
+✔ Test run with 0 tests in 0 suites passed after 0.001 seconds.
